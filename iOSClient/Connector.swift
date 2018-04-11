@@ -27,8 +27,6 @@ class Connector{
             print("Response String: \(response.result.value ?? "")")
             self.retrieveHomework()
         }
-        
-        
     }
     
     public func retrieveHomework(){
