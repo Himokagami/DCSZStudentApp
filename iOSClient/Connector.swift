@@ -19,8 +19,8 @@ let activity_url = "blocks/homework/assignment.php"
 
 let sessionManager = Alamofire.SessionManager.default
 
-//var userid:Int
-//var userRealName:String
+var userid = 0
+var userRealName = ""
 var username = "brandon.kong"
 var password = "***REMOVED***"
 
