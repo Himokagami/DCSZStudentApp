@@ -30,6 +30,7 @@ class Connector{
         }
     }
     
+    
     public func retrieveHomework(){
         sessionManager.request(site_url + homework_url, method: .get).responseString { response in
             print("Success: \(response.result.isSuccess)")
