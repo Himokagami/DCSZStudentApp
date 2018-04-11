@@ -22,7 +22,7 @@ let sessionManager = Alamofire.SessionManager.default
 var userid = 0
 var userRealName = ""
 var username = "***REMOVED***"
-var password = "***REMOVED***"
+var password = ""
 
 class Connector{
     init() {
