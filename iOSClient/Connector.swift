@@ -7,8 +7,8 @@
 //
 
 import Foundation
+import UIKit
 import Alamofire
-
 
 let site_url = "http://dcszonline.dulwich-suzhou.cn/"
 let login_url = "login/index.php"
@@ -25,17 +25,16 @@ class Connector{
             UIApplication.shared.isNetworkActivityIndicatorVisible = false
             print("Success: \(response.result.isSuccess)")
             print("Response String: \(response.result.value ?? "")")
-            self.getHW()
+            self.retrieveHomework()
         }
         
         
     }
     
-    public func getHW(){
+    public func retrieveHomework(){
         sessionManager.request(site_url + homework_url, method: .get).responseString { response in
             print("Success: \(response.result.isSuccess)")
             print("Response String: \(response.result.value ?? "")")
         }
     }
-    
 }
