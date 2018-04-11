@@ -31,6 +31,7 @@ class Connector{
     
     public func userLogin(username:String, password:String){
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        
         //Actual login request
         let login = {sessionManager.request(site_url + login_url, method: .post, parameters: ["username": username, "password": password, "anchor": ""]).responseString { response in
             UIApplication.shared.isNetworkActivityIndicatorVisible = false
@@ -39,6 +40,7 @@ class Connector{
                 }
             }
         }
+        
         //Request a smaller page first for faster login time
         sessionManager.request(site_url + homework_url, method: .get).responseString { response in
             login()
