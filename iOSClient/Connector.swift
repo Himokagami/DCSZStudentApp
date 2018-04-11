@@ -19,17 +19,31 @@ let activity_url = "blocks/homework/assignment.php"
 
 let sessionManager = Alamofire.SessionManager.default
 
+//var userid:Int
+//var userRealName:String
+var username = "***REMOVED***"
+var password = "***REMOVED***"
+
 class Connector{
     init() {
-        UIApplication.shared.isNetworkActivityIndicatorVisible = true
-        sessionManager.request(site_url + login_url, method: .post, parameters: ["username": "***REMOVED***", "password": "***REMOVED***", "anchor": ""]).responseString { response in
-            UIApplication.shared.isNetworkActivityIndicatorVisible = false
-            print("Success: \(response.result.isSuccess)")
-            print("Response String: \(response.result.value ?? "")")
-            self.retrieveHomework()
-        }
+        userLogin(username: username, password: password)
     }
     
+    public func userLogin(username:String, password:String){
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        //Actual login request
+        let login = {sessionManager.request(site_url + login_url, method: .post, parameters: ["username": username, "password": password, "anchor": ""]).responseString { response in
+            UIApplication.shared.isNetworkActivityIndicatorVisible = false
+            if (response.result.isSuccess){
+                print(response.result.value!)
+                }
+            }
+        }
+        //Request a smaller page first for faster login time
+        sessionManager.request(site_url + homework_url, method: .get).responseString { response in
+            login()
+        }
+    }
     
     public func retrieveHomework(){
         sessionManager.request(site_url + homework_url, method: .get).responseString { response in
