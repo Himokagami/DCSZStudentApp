@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import Alamofire
+import SwiftSoup
 
 let site_url = "http://dcszonline.dulwich-suzhou.cn/"
 let login_url = "login/index.php"
