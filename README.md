@@ -1,5 +1,5 @@
 # DCSZStudentApp
-The most light weighted and compact DCSZ students need
+The most light weighted and compact DCSZ student app
 
 
 Current TODOs:
