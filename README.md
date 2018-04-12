@@ -13,6 +13,11 @@ DCSZ Student app is a compact app written in Swift that provides useful tools th
 - Map of campus
 - College notices
 
+## Current TODOs:
+- [ ] Complete the detailed flowchart of the main storyboards
+- [ ] Complete the Connector class to the server
+- [ ] Design the main storyboard theme
+
 License
 --
 
@@ -39,8 +44,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-## Current TODOs:
-- [ ] Complete the detailed flowchart of the main storyboards
-- [ ] Complete the Connector class to the server
-- [ ] Design the main storyboard theme
