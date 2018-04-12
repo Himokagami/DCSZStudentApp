@@ -21,15 +21,33 @@ let sessionManager = Alamofire.SessionManager.default
 
 var userid = 0
 var userRealName = ""
-var username = "***REMOVED***"
-var password = "***REMOVED***"
+private var username = ""
+private var password = ""
 
 class Connector{
+    /*
     init() {
-        userLogin(username: username, password: password)
+        userLogin()
+    }
+ */
+    
+    public func setUsername(name: String){
+        username = name
     }
     
-    public func userLogin(username:String, password:String){
+    public func setPassword(pwd: String){
+        password = pwd
+    }
+    
+    public func getUsername() -> String{
+        return username
+    }
+    
+    public func getPassword() -> String{
+        return username
+    }
+    
+    public func userLogin(){
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
         
         //Actual login request
