@@ -2,7 +2,7 @@
 
 
 ## What is this?
-DCSZ Student app is a compact app written in Swift that provides useful tools that DCSZ students need throughout the College life. It is currently under development.
+DCSZ Student app is a compact app created by Brandon Kong and written in Swift. It provides useful functions that DCSZ students need throughout their College life. It is currently under development.
 
 ## Planned features
 - DCSZOnline homework management
@@ -13,10 +13,11 @@ DCSZ Student app is a compact app written in Swift that provides useful tools th
 - Map of campus
 - College notices
 
-## Current TODOs:
+## Current main TODOs:
 - [ ] Complete the detailed flowchart of the main storyboards
 - [ ] Complete the Connector class to the server
-- [ ] Design the main storyboard theme
+- [ ] Improve the Connector class's request algorithm to increase the access time
+- [ ] Redesign the main theme
 
 License
 --
