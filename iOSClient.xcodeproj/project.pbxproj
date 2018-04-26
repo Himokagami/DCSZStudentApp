@@ -9,7 +9,14 @@
 /* Begin PBXBuildFile section */
 		83AD6EF3416B326919555F02 /* Pods_iOSClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1233BCB1C9C239A6AEAA3F0 /* Pods_iOSClientUITests.framework */; };
 		8BA2E767BEC6FBE6E90E69D4 /* Pods_iOSClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5405C32C4828EAE7599FF1 /* Pods_iOSClientTests.framework */; };
+		DB0AD9662091D88200602E86 /* KozGoPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9642091D87C00602E86 /* KozGoPro-Bold.otf */; };
+		DB0AD9672091D88200602E86 /* KozGoPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9652091D87C00602E86 /* KozGoPro-ExtraLight.otf */; };
+		DB0AD9682091D88200602E86 /* KozGoPro-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9622091D87B00602E86 /* KozGoPro-Heavy.otf */; };
+		DB0AD9692091D88200602E86 /* KozGoPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9612091D87B00602E86 /* KozGoPro-Light.otf */; };
+		DB0AD96A2091D88200602E86 /* KozGoPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9602091D87B00602E86 /* KozGoPro-Medium.otf */; };
+		DB0AD96B2091D88200602E86 /* KozGoPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9632091D87B00602E86 /* KozGoPro-Regular.otf */; };
 		DBA2944A208C199F0053BFA0 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA29449208C199F0053BFA0 /* UserInfo.swift */; };
+		DBAC265A208E0DD6007A55F8 /* _Prototyping in Resources */ = {isa = PBXBuildFile; fileRef = DBAC2659208E0DD6007A55F8 /* _Prototyping */; };
 		DBD515F82074E01D00BB7C92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD515F72074E01D00BB7C92 /* ViewController.swift */; };
 		DBD515FB2074E01D00BB7C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD515F92074E01D00BB7C92 /* Main.storyboard */; };
 		DBD515FE2074E01D00BB7C92 /* iOSClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBD515FC2074E01D00BB7C92 /* iOSClient.xcdatamodeld */; };
@@ -46,7 +53,14 @@
 		9116B45FE6B74D720CF78995 /* Pods_iOSClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F10076558CC24096AA6A41 /* Pods-iOSClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSClient/Pods-iOSClient.debug.xcconfig"; sourceTree = "<group>"; };
 		9A5405C32C4828EAE7599FF1 /* Pods_iOSClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0AD9602091D87B00602E86 /* KozGoPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Medium.otf"; sourceTree = "<group>"; };
+		DB0AD9612091D87B00602E86 /* KozGoPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Light.otf"; sourceTree = "<group>"; };
+		DB0AD9622091D87B00602E86 /* KozGoPro-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Heavy.otf"; sourceTree = "<group>"; };
+		DB0AD9632091D87B00602E86 /* KozGoPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Regular.otf"; sourceTree = "<group>"; };
+		DB0AD9642091D87C00602E86 /* KozGoPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Bold.otf"; sourceTree = "<group>"; };
+		DB0AD9652091D87C00602E86 /* KozGoPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-ExtraLight.otf"; sourceTree = "<group>"; };
 		DBA29449208C199F0053BFA0 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		DBAC2659208E0DD6007A55F8 /* _Prototyping */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _Prototyping; sourceTree = "<group>"; };
 		DBD515F22074E01D00BB7C92 /* iOSClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD515F72074E01D00BB7C92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBD515FA2074E01D00BB7C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,9 +124,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DB0AD95F2091D85800602E86 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB0AD9642091D87C00602E86 /* KozGoPro-Bold.otf */,
+				DB0AD9652091D87C00602E86 /* KozGoPro-ExtraLight.otf */,
+				DB0AD9622091D87B00602E86 /* KozGoPro-Heavy.otf */,
+				DB0AD9612091D87B00602E86 /* KozGoPro-Light.otf */,
+				DB0AD9602091D87B00602E86 /* KozGoPro-Medium.otf */,
+				DB0AD9632091D87B00602E86 /* KozGoPro-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		DBD515E92074E01D00BB7C92 = {
 			isa = PBXGroup;
 			children = (
+				DBAC2659208E0DD6007A55F8 /* _Prototyping */,
 				DBD515F42074E01D00BB7C92 /* iOSClient */,
 				DBD5160C2074E01D00BB7C92 /* iOSClientTests */,
 				DBD516172074E01D00BB7C92 /* iOSClientUITests */,
@@ -135,6 +163,7 @@
 		DBD515F42074E01D00BB7C92 /* iOSClient */ = {
 			isa = PBXGroup;
 			children = (
+				DB0AD95F2091D85800602E86 /* Fonts */,
 				DBFC05FC207CD15100B099B8 /* AppDelegate.swift */,
 				DBD515F72074E01D00BB7C92 /* ViewController.swift */,
 				DBD515F92074E01D00BB7C92 /* Main.storyboard */,
@@ -294,9 +323,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0AD96A2091D88200602E86 /* KozGoPro-Medium.otf in Resources */,
+				DB0AD9672091D88200602E86 /* KozGoPro-ExtraLight.otf in Resources */,
+				DB0AD9692091D88200602E86 /* KozGoPro-Light.otf in Resources */,
+				DB0AD9662091D88200602E86 /* KozGoPro-Bold.otf in Resources */,
+				DB0AD9682091D88200602E86 /* KozGoPro-Heavy.otf in Resources */,
 				DBD516032074E01D00BB7C92 /* LaunchScreen.storyboard in Resources */,
 				DBD516002074E01D00BB7C92 /* Assets.xcassets in Resources */,
+				DBAC265A208E0DD6007A55F8 /* _Prototyping in Resources */,
 				DBD515FB2074E01D00BB7C92 /* Main.storyboard in Resources */,
+				DB0AD96B2091D88200602E86 /* KozGoPro-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
