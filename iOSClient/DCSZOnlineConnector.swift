@@ -73,6 +73,7 @@ class DCSZOnlineConnector{
                             
                             if (sessionkey != "" && userid != 0){
                                 NotificationCenter.default.post(name: Notification.Name(rawValue: "loginSuccessful"), object: self)
+                                print("login successful")
                                 self.refreshHomeworkList()
                             }
                             
@@ -99,8 +100,59 @@ class DCSZOnlineConnector{
             
             if (response.result.isSuccess){
                 do{
+                    var homeworkcache:Array<Any> = []
                     let doc: Document = try SwiftSoup.parse(response.result.value!)
                     
+                    let rawHomework: Array = try doc.select("table").first()!.select("tbody").first()!.select("tr").array()
+                    for homework in rawHomework.enumerated(){
+                        // let index = homework.offset
+                        let value = homework.element
+                        
+                        let rawHomeworkData: Array = try value.select("td").array()
+                        
+                        if (rawHomeworkData.count == 0){ break }
+                        
+                        
+                        // Data analysis
+                        let course: String = try rawHomeworkData[0].text()
+                        let courseid: String = try rawHomeworkData[2].select("a").first()!.attr("href").components(separatedBy: "?")[1].components(separatedBy: "&")[0].components(separatedBy: "=")[1]
+                        let subject: String = try rawHomeworkData[1].text()
+                        let activity: String = try rawHomeworkData[2].select("a").first()!.text()//removes the space at the front of each title
+                        //activity.remove(at: activity.startIndex)
+                        let activityid: String = try rawHomeworkData[2].select("a").first()!.attr("href").components(separatedBy: "?")[1].components(separatedBy: "&")[1].components(separatedBy: "=")[1].components(separatedBy: "\\")[0]
+                        let set_by: String = try rawHomeworkData[3].text()
+                        let status: String = try rawHomeworkData[4].text()
+                        let grade: String = try rawHomeworkData[5].text()
+                        let feedback: String = try rawHomeworkData[6].text()
+                        let duedate: Array = try rawHomeworkData[7].text().components(separatedBy: "\n")[0].components(separatedBy: " ")
+                        let duedate_day: String = duedate[0]
+                        let duedate_month: String = duedate[1] // TODO: add months string to int converter
+                        let duedate_year: String = duedate[2]
+                        
+                        var homeworkPayload = [course.replacingOccurrences(of: "<\\/td>", with: ""),
+                                               courseid,
+                                               subject.replacingOccurrences(of: "<\\/td>", with: ""),
+                                               activity.replacingOccurrences(of: "<\\/a><\\/td>", with: ""),
+                                               activityid,
+                                               set_by.replacingOccurrences(of: "<\\/td>", with: ""),
+                                               status.replacingOccurrences(of: "<\\/td>", with: ""),
+                                               grade.replacingOccurrences(of: "<\\/td>", with: ""),
+                                               feedback.replacingOccurrences(of: "<\\/td>", with: ""),
+                                               duedate_day,
+                                               duedate_month,
+                                               duedate_year.replacingOccurrences(of: "<\\/td><\\/tr>\\n", with: "").replacingOccurrences(of: "<\\/tbody>\\n<\\/table><\\/div>\",\"htmltimetable\":\"", with: "")
+                        ]
+                        for hw in homeworkPayload.enumerated(){
+                            let hwIndex = hw.offset
+                            if (hwIndex != 1 && hwIndex != 4){
+                                homeworkPayload[hwIndex] = homeworkPayload[hwIndex].replacingOccurrences(of: "\'", with: "‘").replacingOccurrences(of: "\\/", with: "/")
+                            }
+                        }
+                        
+                        homeworkcache.append(homeworkPayload)
+                    }
+                    print(homeworkcache)
+                    NotificationCenter.default.post(name: Notification.Name(rawValue: "refreshHomeworkList"), object: self)
                 } catch Exception.Error(let type, let message) {
                     print(message)
                 } catch {
