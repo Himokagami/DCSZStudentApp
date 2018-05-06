@@ -15,9 +15,12 @@
 		DB0AD9692091D88200602E86 /* KozGoPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9612091D87B00602E86 /* KozGoPro-Light.otf */; };
 		DB0AD96A2091D88200602E86 /* KozGoPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9602091D87B00602E86 /* KozGoPro-Medium.otf */; };
 		DB0AD96B2091D88200602E86 /* KozGoPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9632091D87B00602E86 /* KozGoPro-Regular.otf */; };
-		DBA2944A208C199F0053BFA0 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA29449208C199F0053BFA0 /* UserInfo.swift */; };
+		DB52ACEA209B0E780092C88D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52ACE9209B0E780092C88D /* GradientView.swift */; };
+		DB52ACEC209B16D30092C88D /* HomeworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52ACEB209B16D30092C88D /* HomeworkController.swift */; };
 		DBAC265A208E0DD6007A55F8 /* _Prototyping in Resources */ = {isa = PBXBuildFile; fileRef = DBAC2659208E0DD6007A55F8 /* _Prototyping */; };
-		DBD515F82074E01D00BB7C92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD515F72074E01D00BB7C92 /* ViewController.swift */; };
+		DBBF2942209EF95B00679E38 /* Homework.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF2941209EF95B00679E38 /* Homework.swift */; };
+		DBBF2944209F3B5000679E38 /* TabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF2943209F3B5000679E38 /* TabBarControllerViewController.swift */; };
+		DBD515F82074E01D00BB7C92 /* TodayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD515F72074E01D00BB7C92 /* TodayController.swift */; };
 		DBD515FB2074E01D00BB7C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD515F92074E01D00BB7C92 /* Main.storyboard */; };
 		DBD515FE2074E01D00BB7C92 /* iOSClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBD515FC2074E01D00BB7C92 /* iOSClient.xcdatamodeld */; };
 		DBD516002074E01D00BB7C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD515FF2074E01D00BB7C92 /* Assets.xcassets */; };
@@ -59,10 +62,13 @@
 		DB0AD9632091D87B00602E86 /* KozGoPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Regular.otf"; sourceTree = "<group>"; };
 		DB0AD9642091D87C00602E86 /* KozGoPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Bold.otf"; sourceTree = "<group>"; };
 		DB0AD9652091D87C00602E86 /* KozGoPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-ExtraLight.otf"; sourceTree = "<group>"; };
-		DBA29449208C199F0053BFA0 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		DB52ACE9209B0E780092C88D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DB52ACEB209B16D30092C88D /* HomeworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkController.swift; sourceTree = "<group>"; };
 		DBAC2659208E0DD6007A55F8 /* _Prototyping */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _Prototyping; sourceTree = "<group>"; };
+		DBBF2941209EF95B00679E38 /* Homework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework.swift; sourceTree = "<group>"; };
+		DBBF2943209F3B5000679E38 /* TabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerViewController.swift; sourceTree = "<group>"; };
 		DBD515F22074E01D00BB7C92 /* iOSClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBD515F72074E01D00BB7C92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD515F72074E01D00BB7C92 /* TodayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayController.swift; sourceTree = "<group>"; };
 		DBD515FA2074E01D00BB7C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBD515FD2074E01D00BB7C92 /* iOSClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSClient.xcdatamodel; sourceTree = "<group>"; };
 		DBD515FF2074E01D00BB7C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,6 +143,41 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		DB52ACE52099B8960092C88D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB52ACE82099B8C40092C88D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DBD515F92074E01D00BB7C92 /* Main.storyboard */,
+				DBD516012074E01D00BB7C92 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DB607A2F20986C2300CED800 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB52ACE9209B0E780092C88D /* GradientView.swift */,
+				DBD515F72074E01D00BB7C92 /* TodayController.swift */,
+				DB52ACEB209B16D30092C88D /* HomeworkController.swift */,
+				DBBF2943209F3B5000679E38 /* TabBarControllerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBBF2940209EF93600679E38 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DBBF2941209EF95B00679E38 /* Homework.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		DBD515E92074E01D00BB7C92 = {
 			isa = PBXGroup;
 			children = (
@@ -163,16 +204,16 @@
 		DBD515F42074E01D00BB7C92 /* iOSClient */ = {
 			isa = PBXGroup;
 			children = (
+				DBD516262076742500BB7C92 /* DCSZOnlineConnector.swift */,
+				DBBF2940209EF93600679E38 /* Classes */,
+				DB52ACE52099B8960092C88D /* Model */,
+				DB52ACE82099B8C40092C88D /* Storyboards */,
+				DB607A2F20986C2300CED800 /* Controller */,
 				DB0AD95F2091D85800602E86 /* Fonts */,
 				DBFC05FC207CD15100B099B8 /* AppDelegate.swift */,
-				DBD515F72074E01D00BB7C92 /* ViewController.swift */,
-				DBD515F92074E01D00BB7C92 /* Main.storyboard */,
 				DBD515FF2074E01D00BB7C92 /* Assets.xcassets */,
-				DBD516012074E01D00BB7C92 /* LaunchScreen.storyboard */,
 				DBD516042074E01D00BB7C92 /* Info.plist */,
 				DBD515FC2074E01D00BB7C92 /* iOSClient.xcdatamodeld */,
-				DBD516262076742500BB7C92 /* DCSZOnlineConnector.swift */,
-				DBA29449208C199F0053BFA0 /* UserInfo.swift */,
 			);
 			path = iOSClient;
 			sourceTree = "<group>";
@@ -509,10 +550,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB52ACEC209B16D30092C88D /* HomeworkController.swift in Sources */,
 				DBFC05FD207CD15100B099B8 /* AppDelegate.swift in Sources */,
-				DBD515F82074E01D00BB7C92 /* ViewController.swift in Sources */,
+				DBD515F82074E01D00BB7C92 /* TodayController.swift in Sources */,
+				DB52ACEA209B0E780092C88D /* GradientView.swift in Sources */,
 				DBD516272076742500BB7C92 /* DCSZOnlineConnector.swift in Sources */,
-				DBA2944A208C199F0053BFA0 /* UserInfo.swift in Sources */,
+				DBBF2942209EF95B00679E38 /* Homework.swift in Sources */,
+				DBBF2944209F3B5000679E38 /* TabBarControllerViewController.swift in Sources */,
 				DBD515FE2074E01D00BB7C92 /* iOSClient.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
