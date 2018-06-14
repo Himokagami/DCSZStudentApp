@@ -1,5 +1,4 @@
 # DCSZ Student App
-![DCSZ Student App](/Resources/Himokagami.png)
 
 ## What is this?
 DCSZ Student app is a compact app created by Brandon Kong and written in Swift. It provides useful functions that DCSZ students need throughout their College life. It is currently under development.
