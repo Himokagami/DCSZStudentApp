@@ -31,7 +31,7 @@ class TodayController: UIViewController {
         var homeworkString = ""
         var count:Int = 1
         for activity in DCSZOnline.homeworkList{
-            let selector:Bool = activity.activityRequireUpload //activity.activityStatus != "Completed"
+            let selector:Bool = activity.activityStatus != "Completed"
             if (selector){
                 homeworkString = homeworkString + "\(String(count)). \(activity.activityName) - \(activity.subjectName)\n  Due date: \(activity.activityDueDate)\n"
                 count = count + 1
@@ -68,7 +68,7 @@ class TodayController: UIViewController {
     
     @IBAction func press(){
         DCSZOnline.setUsername(name: "***REMOVED***")
-        DCSZOnline.setPassword(pwd: "")
+        DCSZOnline.setPassword(pwd: "***REMOVED***")
         DCSZOnline.login()
     }
     

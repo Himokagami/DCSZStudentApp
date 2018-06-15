@@ -29,7 +29,7 @@
 		DBD516192074E01D00BB7C92 /* iOSClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD516182074E01D00BB7C92 /* iOSClientUITests.swift */; };
 		DBD516272076742500BB7C92 /* DCSZOnlineConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD516262076742500BB7C92 /* DCSZOnlineConnector.swift */; };
 		DBEF4C3D20A027F9004A1006 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DBEF4C3C20A027F9004A1006 /* README.md */; };
-		DBEF4C3F20A028AC004A1006 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = DBEF4C3E20A028AC004A1006 /* Resources */; };
+		DBEF4C3F20A028AC004A1006 /* Res in Resources */ = {isa = PBXBuildFile; fileRef = DBEF4C3E20A028AC004A1006 /* Res */; };
 		DBFC05FD207CD15100B099B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC05FC207CD15100B099B8 /* AppDelegate.swift */; };
 		F3021897A0501CC91D4ACEDA /* Pods_iOSClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9116B45FE6B74D720CF78995 /* Pods_iOSClient.framework */; };
 /* End PBXBuildFile section */
@@ -84,7 +84,7 @@
 		DBD5161A2074E01D00BB7C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBD516262076742500BB7C92 /* DCSZOnlineConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSZOnlineConnector.swift; sourceTree = "<group>"; };
 		DBEF4C3C20A027F9004A1006 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DBEF4C3E20A028AC004A1006 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		DBEF4C3E20A028AC004A1006 /* Res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Res; sourceTree = "<group>"; };
 		DBFC05F7207CC9D000B099B8 /* SwiftSoup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSoup.framework; path = Carthage/Build/iOS/SwiftSoup.framework; sourceTree = "<group>"; };
 		DBFC05F8207CC9D000B099B8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		DBFC05FC207CD15100B099B8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -185,7 +185,7 @@
 		DBD515E92074E01D00BB7C92 = {
 			isa = PBXGroup;
 			children = (
-				DBEF4C3E20A028AC004A1006 /* Resources */,
+				DBEF4C3E20A028AC004A1006 /* Res */,
 				DBEF4C3C20A027F9004A1006 /* README.md */,
 				DBAC2659208E0DD6007A55F8 /* _Prototyping */,
 				DBD515F42074E01D00BB7C92 /* iOSClient */,
@@ -378,7 +378,7 @@
 				DBD516032074E01D00BB7C92 /* LaunchScreen.storyboard in Resources */,
 				DBD516002074E01D00BB7C92 /* Assets.xcassets in Resources */,
 				DBAC265A208E0DD6007A55F8 /* _Prototyping in Resources */,
-				DBEF4C3F20A028AC004A1006 /* Resources in Resources */,
+				DBEF4C3F20A028AC004A1006 /* Res in Resources */,
 				DBD515FB2074E01D00BB7C92 /* Main.storyboard in Resources */,
 				DBEF4C3D20A027F9004A1006 /* README.md in Resources */,
 				DB0AD96B2091D88200602E86 /* KozGoPro-Regular.otf in Resources */,

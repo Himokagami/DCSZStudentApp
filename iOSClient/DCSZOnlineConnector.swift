@@ -13,7 +13,7 @@ import SwiftSoup
 import NotificationCenter
 
 
-let site_url = "https://dcszonline.dulwich-suzhou.cn/"
+let site_url = "https://myschool.dulwich-suzhou.cn/"
 let login_url = "login/index.php"
 let homework_url = "blocks/homework/view.php?course=1"
 let homeworkdata_url = "blocks/homework/ajax/view_timetable.php"
