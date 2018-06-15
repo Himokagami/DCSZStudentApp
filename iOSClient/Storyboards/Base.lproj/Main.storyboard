@@ -33,24 +33,13 @@
                                     <action selector="press" destination="BYZ-38-t0r" eventType="touchUpInside" id="L6a-O5-4iN"/>
                                 </connections>
                             </button>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofa-ke-PSi">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="Qn5-wq-6ls"/>
-                                    <tabBarItem systemItem="more" id="inc-AT-Dc3"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rzR-PR-5fb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="CSO-SP-2wF"/>
-                            <constraint firstItem="ofa-ke-PSi" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Llm-is-B1X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rzR-PR-5fb" secondAttribute="bottom" constant="295" id="Tkb-Ah-RJb"/>
                             <constraint firstItem="rzR-PR-5fb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="274" id="VOk-VB-1aJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rzR-PR-5fb" secondAttribute="trailing" constant="66" id="gKy-Bc-ePe"/>
-                            <constraint firstItem="ofa-ke-PSi" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mx0-s8-mJs"/>
-                            <constraint firstItem="ofa-ke-PSi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rmF-bP-lHC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
