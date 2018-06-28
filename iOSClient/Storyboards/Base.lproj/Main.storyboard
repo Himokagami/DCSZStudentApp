@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Item-->
+        <!--Today-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="TodayController" customModule="iOSClient" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Today" customClass="TodayController" customModule="iOSClient" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GradientView" customModule="iOSClient">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,32 +43,32 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bNO-Cn-Z2f"/>
+                    <tabBarItem key="tabBarItem" title="Today" id="bNO-Cn-Z2f" userLabel="Today"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="129.08545727136433"/>
         </scene>
-        <!--Homework view-->
+        <!--Homework-->
         <scene sceneID="Idx-No-Uc2">
             <objects>
-                <viewController id="dp3-CV-iTi" userLabel="Homework view" customClass="HomeworkController" customModule="iOSClient" sceneMemberID="viewController">
+                <viewController id="dp3-CV-iTi" userLabel="Homework" customClass="HomeworkController" customModule="iOSClient" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rSS-sN-t49">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="TW5-LM-iSa"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="Homework icon Slected" id="miY-jB-uDb"/>
+                    <tabBarItem key="tabBarItem" title="Homework" selectedImage="Homework icon Slected" id="miY-jB-uDb" userLabel="Homework"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y9w-wE-z5l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="983" y="129"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar Controller-->
         <scene sceneID="w3j-yb-vk4">
             <objects>
-                <tabBarController id="0Go-jm-vGf" sceneMemberID="viewController">
+                <tabBarController id="0Go-jm-vGf" customClass="CustomTabBarController" customModule="iOSClient" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="S83-Ce-aQJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

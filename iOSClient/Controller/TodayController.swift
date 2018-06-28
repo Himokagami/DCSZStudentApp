@@ -67,7 +67,7 @@ class TodayController: UIViewController {
     }
     
     @IBAction func press(){
-        DCSZOnline.setUsername(name: "brandon.kong")
+        DCSZOnline.setUsername(name: "")
         DCSZOnline.setPassword(pwd: "")
         DCSZOnline.login()
     }

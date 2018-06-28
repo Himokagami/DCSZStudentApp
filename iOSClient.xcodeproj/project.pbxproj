@@ -15,6 +15,7 @@
 		DB0AD9692091D88200602E86 /* KozGoPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9612091D87B00602E86 /* KozGoPro-Light.otf */; };
 		DB0AD96A2091D88200602E86 /* KozGoPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9602091D87B00602E86 /* KozGoPro-Medium.otf */; };
 		DB0AD96B2091D88200602E86 /* KozGoPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9632091D87B00602E86 /* KozGoPro-Regular.otf */; };
+		DB2D75B220DFAF3D00292C8C /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D75B120DFAF3D00292C8C /* CustomTabBarController.swift */; };
 		DB41268320DF96C800EAC0CD /* Today.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB41268220DF96C800EAC0CD /* Today.storyboard */; };
 		DB41268720DFA0F200EAC0CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB41268620DFA0F200EAC0CD /* Assets.xcassets */; };
 		DB52ACEA209B0E780092C88D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52ACE9209B0E780092C88D /* GradientView.swift */; };
@@ -65,6 +66,7 @@
 		DB0AD9632091D87B00602E86 /* KozGoPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Regular.otf"; sourceTree = "<group>"; };
 		DB0AD9642091D87C00602E86 /* KozGoPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Bold.otf"; sourceTree = "<group>"; };
 		DB0AD9652091D87C00602E86 /* KozGoPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		DB2D75B120DFAF3D00292C8C /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		DB41268220DF96C800EAC0CD /* Today.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Today.storyboard; sourceTree = "<group>"; };
 		DB41268620DFA0F200EAC0CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB52ACE9209B0E780092C88D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				DBD515F72074E01D00BB7C92 /* TodayController.swift */,
 				DB52ACEB209B16D30092C88D /* HomeworkController.swift */,
 				DBBF2943209F3B5000679E38 /* TabBarControllerViewController.swift */,
+				DB2D75B120DFAF3D00292C8C /* CustomTabBarController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				DBBF2942209EF95B00679E38 /* Homework.swift in Sources */,
 				DBBF2944209F3B5000679E38 /* TabBarControllerViewController.swift in Sources */,
 				DBD515FE2074E01D00BB7C92 /* iOSClient.xcdatamodeld in Sources */,
+				DB2D75B220DFAF3D00292C8C /* CustomTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
