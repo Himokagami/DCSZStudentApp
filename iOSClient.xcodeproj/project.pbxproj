@@ -15,11 +15,20 @@
 		DB0AD9692091D88200602E86 /* KozGoPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9612091D87B00602E86 /* KozGoPro-Light.otf */; };
 		DB0AD96A2091D88200602E86 /* KozGoPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9602091D87B00602E86 /* KozGoPro-Medium.otf */; };
 		DB0AD96B2091D88200602E86 /* KozGoPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB0AD9632091D87B00602E86 /* KozGoPro-Regular.otf */; };
+		DB2ABA63211C48C9004E7B37 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2ABA62211C48C9004E7B37 /* Media.xcassets */; };
+		DB2ABA67211C7D52004E7B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2ABA66211C7D52004E7B37 /* ViewController.swift */; };
+		DB2ABA6A211C7E0A004E7B37 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2ABA69211C7E0A004E7B37 /* TodayViewController.swift */; };
+		DB2ABA6C211C7E14004E7B37 /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2ABA6B211C7E14004E7B37 /* HomeworkViewController.swift */; };
+		DB2ABA6E211C7E31004E7B37 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2ABA6D211C7E31004E7B37 /* CalenderViewController.swift */; };
+		DB2ABA70211C7E45004E7B37 /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2ABA6F211C7E45004E7B37 /* FunctionViewController.swift */; };
 		DB2D75B220DFAF3D00292C8C /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D75B120DFAF3D00292C8C /* CustomTabBarController.swift */; };
-		DB41268320DF96C800EAC0CD /* Today.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB41268220DF96C800EAC0CD /* Today.storyboard */; };
-		DB41268720DFA0F200EAC0CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB41268620DFA0F200EAC0CD /* Assets.xcassets */; };
+		DB30CBE7211D81E900D3423A /* MasterUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB30CBE6211D81E900D3423A /* MasterUIView.swift */; };
+		DB30CBE9211D821500D3423A /* MasterUITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB30CBE8211D821500D3423A /* MasterUITabBar.swift */; };
 		DB52ACEA209B0E780092C88D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52ACE9209B0E780092C88D /* GradientView.swift */; };
 		DB52ACEC209B16D30092C88D /* HomeworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52ACEB209B16D30092C88D /* HomeworkController.swift */; };
+		DB9573A8213BD85300A0D622 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9573A9213BD85300A0D622 /* Alamofire.framework */; };
+		DB9573AA213BD85700A0D622 /* SwiftSoup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9573AB213BD85700A0D622 /* SwiftSoup.framework */; };
+		DB9573AF213D7ECD00A0D622 /* HomeworkTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9573AE213D7ECD00A0D622 /* HomeworkTableTableViewController.swift */; };
 		DBAC265A208E0DD6007A55F8 /* _Prototyping in Resources */ = {isa = PBXBuildFile; fileRef = DBAC2659208E0DD6007A55F8 /* _Prototyping */; };
 		DBBF2942209EF95B00679E38 /* Homework.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF2941209EF95B00679E38 /* Homework.swift */; };
 		DBBF2944209F3B5000679E38 /* TabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF2943209F3B5000679E38 /* TabBarControllerViewController.swift */; };
@@ -33,6 +42,7 @@
 		DBEF4C3D20A027F9004A1006 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DBEF4C3C20A027F9004A1006 /* README.md */; };
 		DBEF4C3F20A028AC004A1006 /* Res in Resources */ = {isa = PBXBuildFile; fileRef = DBEF4C3E20A028AC004A1006 /* Res */; };
 		DBFC05FD207CD15100B099B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC05FC207CD15100B099B8 /* AppDelegate.swift */; };
+		DBFE1804211C420800205BD8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE1803211C420800205BD8 /* MainTabBarController.swift */; };
 		F3021897A0501CC91D4ACEDA /* Pods_iOSClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9116B45FE6B74D720CF78995 /* Pods_iOSClient.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,11 +76,20 @@
 		DB0AD9632091D87B00602E86 /* KozGoPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Regular.otf"; sourceTree = "<group>"; };
 		DB0AD9642091D87C00602E86 /* KozGoPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Bold.otf"; sourceTree = "<group>"; };
 		DB0AD9652091D87C00602E86 /* KozGoPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		DB2ABA62211C48C9004E7B37 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		DB2ABA66211C7D52004E7B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB2ABA69211C7E0A004E7B37 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		DB2ABA6B211C7E14004E7B37 /* HomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
+		DB2ABA6D211C7E31004E7B37 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		DB2ABA6F211C7E45004E7B37 /* FunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
 		DB2D75B120DFAF3D00292C8C /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
-		DB41268220DF96C800EAC0CD /* Today.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Today.storyboard; sourceTree = "<group>"; };
-		DB41268620DFA0F200EAC0CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB30CBE6211D81E900D3423A /* MasterUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterUIView.swift; sourceTree = "<group>"; };
+		DB30CBE8211D821500D3423A /* MasterUITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterUITabBar.swift; sourceTree = "<group>"; };
 		DB52ACE9209B0E780092C88D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DB52ACEB209B16D30092C88D /* HomeworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkController.swift; sourceTree = "<group>"; };
+		DB9573A9213BD85300A0D622 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9573AB213BD85700A0D622 /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9573AE213D7ECD00A0D622 /* HomeworkTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkTableTableViewController.swift; sourceTree = "<group>"; };
 		DBAC2659208E0DD6007A55F8 /* _Prototyping */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _Prototyping; sourceTree = "<group>"; };
 		DBBF2941209EF95B00679E38 /* Homework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework.swift; sourceTree = "<group>"; };
 		DBBF2943209F3B5000679E38 /* TabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +111,7 @@
 		DBFC05F7207CC9D000B099B8 /* SwiftSoup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSoup.framework; path = Carthage/Build/iOS/SwiftSoup.framework; sourceTree = "<group>"; };
 		DBFC05F8207CC9D000B099B8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		DBFC05FC207CD15100B099B8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBFE1803211C420800205BD8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		E0EDD03CC968627992338ADE /* Pods-iOSClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSClientTests/Pods-iOSClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E84A474623A2A635D53A037B /* Pods-iOSClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSClientUITests/Pods-iOSClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1233BCB1C9C239A6AEAA3F0 /* Pods_iOSClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9573AA213BD85700A0D622 /* SwiftSoup.framework in Frameworks */,
+				DB9573A8213BD85300A0D622 /* Alamofire.framework in Frameworks */,
 				F3021897A0501CC91D4ACEDA /* Pods_iOSClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,11 +173,70 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		DB52ACE52099B8960092C88D /* Model */ = {
+		DB2ABA61211C48A1004E7B37 /* ResourceContents */ = {
+			isa = PBXGroup;
+			children = (
+				DB0AD95F2091D85800602E86 /* Fonts */,
+				DB2ABA62211C48C9004E7B37 /* Media.xcassets */,
+			);
+			path = ResourceContents;
+			sourceTree = "<group>";
+		};
+		DB2ABA64211C7CB9004E7B37 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				DBBF2940209EF93600679E38 /* Classes */,
+				DB607A2F20986C2300CED800 /* Controller */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
+		DB2ABA65211C7CE2004E7B37 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB9573A7213A715900A0D622 /* Network */,
+				DB30CBE5211D81D100D3423A /* Views */,
+				DBFE1803211C420800205BD8 /* MainTabBarController.swift */,
+				DB2ABA66211C7D52004E7B37 /* ViewController.swift */,
+				DB2ABA69211C7E0A004E7B37 /* TodayViewController.swift */,
+				DB2ABA6B211C7E14004E7B37 /* HomeworkViewController.swift */,
+				DB2ABA6D211C7E31004E7B37 /* CalenderViewController.swift */,
+				DB2ABA6F211C7E45004E7B37 /* FunctionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB2ABA68211C7DB0004E7B37 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Model;
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DB30CBE5211D81D100D3423A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB30CBEB211D823400D3423A /* UITabBar */,
+				DB30CBEA211D822900D3423A /* UIView */,
+				DB30CBE6211D81E900D3423A /* MasterUIView.swift */,
+				DB30CBE8211D821500D3423A /* MasterUITabBar.swift */,
+				DB9573AE213D7ECD00A0D622 /* HomeworkTableTableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB30CBEA211D822900D3423A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		DB30CBEB211D823400D3423A /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITabBar;
 			sourceTree = "<group>";
 		};
 		DB52ACE82099B8C40092C88D /* Storyboards */ = {
@@ -163,7 +244,6 @@
 			children = (
 				DBD515F92074E01D00BB7C92 /* Main.storyboard */,
 				DBD516012074E01D00BB7C92 /* LaunchScreen.storyboard */,
-				DB41268220DF96C800EAC0CD /* Today.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -180,9 +260,17 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		DB9573A7213A715900A0D622 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		DBBF2940209EF93600679E38 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DBD516262076742500BB7C92 /* DCSZOnlineConnector.swift */,
 				DBBF2941209EF95B00679E38 /* Homework.swift */,
 			);
 			path = Classes;
@@ -191,7 +279,6 @@
 		DBD515E92074E01D00BB7C92 = {
 			isa = PBXGroup;
 			children = (
-				DB41268620DFA0F200EAC0CD /* Assets.xcassets */,
 				DBEF4C3E20A028AC004A1006 /* Res */,
 				DBEF4C3C20A027F9004A1006 /* README.md */,
 				DBAC2659208E0DD6007A55F8 /* _Prototyping */,
@@ -217,12 +304,11 @@
 		DBD515F42074E01D00BB7C92 /* iOSClient */ = {
 			isa = PBXGroup;
 			children = (
-				DBD516262076742500BB7C92 /* DCSZOnlineConnector.swift */,
-				DBBF2940209EF93600679E38 /* Classes */,
-				DB52ACE52099B8960092C88D /* Model */,
+				DB2ABA68211C7DB0004E7B37 /* Network */,
+				DB2ABA64211C7CB9004E7B37 /* Old */,
+				DB2ABA61211C48A1004E7B37 /* ResourceContents */,
+				DB2ABA65211C7CE2004E7B37 /* Controllers */,
 				DB52ACE82099B8C40092C88D /* Storyboards */,
-				DB607A2F20986C2300CED800 /* Controller */,
-				DB0AD95F2091D85800602E86 /* Fonts */,
 				DBFC05FC207CD15100B099B8 /* AppDelegate.swift */,
 				DBD516042074E01D00BB7C92 /* Info.plist */,
 				DBD515FC2074E01D00BB7C92 /* iOSClient.xcdatamodeld */,
@@ -251,6 +337,8 @@
 		DBFC05F6207CC9D000B099B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB9573AB213BD85700A0D622 /* SwiftSoup.framework */,
+				DB9573A9213BD85300A0D622 /* Alamofire.framework */,
 				DBFC05F8207CC9D000B099B8 /* Alamofire.framework */,
 				DBFC05F7207CC9D000B099B8 /* SwiftSoup.framework */,
 				9116B45FE6B74D720CF78995 /* Pods_iOSClient.framework */,
@@ -382,12 +470,11 @@
 				DB0AD9662091D88200602E86 /* KozGoPro-Bold.otf in Resources */,
 				DB0AD9682091D88200602E86 /* KozGoPro-Heavy.otf in Resources */,
 				DBD516032074E01D00BB7C92 /* LaunchScreen.storyboard in Resources */,
-				DB41268720DFA0F200EAC0CD /* Assets.xcassets in Resources */,
 				DBAC265A208E0DD6007A55F8 /* _Prototyping in Resources */,
 				DBEF4C3F20A028AC004A1006 /* Res in Resources */,
 				DBD515FB2074E01D00BB7C92 /* Main.storyboard in Resources */,
-				DB41268320DF96C800EAC0CD /* Today.storyboard in Resources */,
 				DBEF4C3D20A027F9004A1006 /* README.md in Resources */,
+				DB2ABA63211C48C9004E7B37 /* Media.xcassets in Resources */,
 				DB0AD96B2091D88200602E86 /* KozGoPro-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,11 +589,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-iOSClient/Pods-iOSClient-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/UIGradient/UIGradient.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIGradient.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -566,14 +655,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB52ACEC209B16D30092C88D /* HomeworkController.swift in Sources */,
+				DB2ABA67211C7D52004E7B37 /* ViewController.swift in Sources */,
+				DB30CBE7211D81E900D3423A /* MasterUIView.swift in Sources */,
 				DBFC05FD207CD15100B099B8 /* AppDelegate.swift in Sources */,
+				DB2ABA70211C7E45004E7B37 /* FunctionViewController.swift in Sources */,
 				DBD515F82074E01D00BB7C92 /* TodayController.swift in Sources */,
+				DB9573AF213D7ECD00A0D622 /* HomeworkTableTableViewController.swift in Sources */,
+				DB2ABA6E211C7E31004E7B37 /* CalenderViewController.swift in Sources */,
 				DB52ACEA209B0E780092C88D /* GradientView.swift in Sources */,
 				DBD516272076742500BB7C92 /* DCSZOnlineConnector.swift in Sources */,
 				DBBF2942209EF95B00679E38 /* Homework.swift in Sources */,
 				DBBF2944209F3B5000679E38 /* TabBarControllerViewController.swift in Sources */,
+				DB2ABA6A211C7E0A004E7B37 /* TodayViewController.swift in Sources */,
 				DBD515FE2074E01D00BB7C92 /* iOSClient.xcdatamodeld in Sources */,
+				DB2ABA6C211C7E14004E7B37 /* HomeworkViewController.swift in Sources */,
 				DB2D75B220DFAF3D00292C8C /* CustomTabBarController.swift in Sources */,
+				DBFE1804211C420800205BD8 /* MainTabBarController.swift in Sources */,
+				DB30CBE9211D821500D3423A /* MasterUITabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,7 +837,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 95F10076558CC24096AA6A41 /* Pods-iOSClient.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AYMBFJK4LN;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -748,7 +847,7 @@
 				);
 				INFOPLIST_FILE = iOSClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Himokagami.StudentApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himokagami.DNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -759,7 +858,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0DF0C84905B0B4CA5F4AE8BF /* Pods-iOSClient.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AYMBFJK4LN;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -768,7 +868,7 @@
 				);
 				INFOPLIST_FILE = iOSClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Himokagami.StudentApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himokagami.DNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -6,6 +6,7 @@ target 'iOSClient' do
   use_frameworks!
   pod 'SwiftSoup'
   pod 'Alamofire', '~> 4.7'
+  pod 'UIGradient', '~> 1.1.2'
 
   # Pods for iOSClient
 
